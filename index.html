@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Collège Michelet Accueil</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/collegemichelet.png" />
     <script type="text/javascript" src="javascript/recherche.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
@@ -16,19 +17,17 @@
         </div>
         <div class="rechercher" id="rechercher">
             <a><img class="rechercher" src="img/rechercher.png" alt=""></a>
-            <li><input id="searchbar" onkeyup="search_lien()" type="text"name="search" placeholder="Rechercher" change="">
-                <div id="list"></div>
+            <input id="searchbar" onkeyup="search_lien()" type="text"name="search" placeholder="Rechercher" change="">
                 <script>
                     $(function(){
                     $("#list").load("./liste.html"); 
                     });
                 </script> 
-            </li>
         </div>
         <nav>
             <a href="index.html" class="active">Accueil</a>
-            <a href="qui-sommes-nous.html" class="">Actualités</a>
-            <a href="faq.html">Se connecter</a>
+            <a href="actualites.html" class="">Actualités</a>
+            <a href="login.html">Se connecter</a>
         </nav>
     </header>
     <main class="main">
@@ -38,16 +37,16 @@
             <div class="button"><a href="#">Découvrir -></a></div>
         </div>
         <div class="container container-1">
-			<div class="box vf"><a href="index.html" class=""><img src="img/rechercher.png" alt="">Actualités</a></div>
-			<div class="box vc"><a href="index.html" class=""><img src="img/rechercher.png" alt="">Activités</a></div>
-			<div class="box vf"><a href="index.html" class=""><img src="img/rechercher.png" alt="">Sorties & Voyages</a></div>
-			<div class="box vc"><a href="index.html" class=""><img src="img/rechercher.png" alt="">Messages</a></div>
-			<div class="box vf"><a href="index.html" class=""><img src="img/rechercher.png" alt="">Orientation</a></div>
-			<div class="box vc"><a href="index.html" class=""><img src="img/rechercher.png" alt="">Arts</a></div>
-			<div class="box vf"><a href="index.html" class=""><img src="img/rechercher.png" alt="">Pöle sciences & technologie</a></div>
-			<div class="box vc"><a href="index.html" class=""><img src="img/rechercher.png" alt="">Mathématiques & Littérature</a></div>
-			<div class="box vf"><a href="index.html" class=""><img src="img/rechercher.png" alt="">Personnel</a></div>
-			<div class="box vc"><a href="index.html" class=""><img src="img/rechercher.png" alt="">Contacts & Situation géographique</a></div>
+			<a href="actualites.html" class=""><div class="box vf"><img src="img/actualites.png" alt="">Actualités</div></a>
+			<a href="activites.html" class=""><div class="box vc"><img src="img/activites.png" alt="">Activités</div></a>
+			<a href="sortiesvoyages.html" class=""><div class="box vf"><img src="img/voyages.png" alt="">Sorties & Voyages</div></a>
+			<a href="messages.html" class=""><div class="box vc"><img src="img/messages.png" alt="">Messages</div></a>
+			<a href="orientation.html" class=""><div class="box vf"><img src="img/orientation.png" alt="">Orientation</div></a>
+			<a href="arts.html" class=""><div class="box vc"><img src="img/arts.png" alt="">Arts</div></a>
+			<a href="sciencesettechnologie.html" class=""><div class="box vf"><img src="img/science-et-tech.png" alt="">Pôle sciences & technologie</div></a>
+			<a href="mathematiquesetlitterature.html" class=""><div class="box vc"><img src="img/maths-et-litter.png" alt="">Mathématiques & Littérature</div></a>
+			<a href="personnel.html" class=""><div class="box vf"><img src="img/personnel.png" alt="">Personnel</div></a>
+			<a href="contacts.html" class=""><div class="box vc"><img src="img/information.png" alt="">Contacts & Situation géographique</div></a>
 			
         </div>
     </main>
