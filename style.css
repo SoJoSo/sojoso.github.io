@@ -280,6 +280,7 @@ body, html {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 5vw;
+    object-fit:cover;
 }
 
 .vc{
@@ -314,9 +315,34 @@ body, html {
     object-fit:cover;
 }
 
+.n2{
+    width:40vw;
+    margin-left:4vw;
+    height:auto;
+    border-radius: 30px;
+}
+
+
+.n2 img{
+    width:25vw;
+    height:20vw;
+}
+
+.n3{
+    width:29.5vw;
+    height:auto;
+    border-radius: 30px;
+}
+
+.n3 img{
+    width:25vw;
+    height:20vw;
+}
+
 
 h1.titre{
     position:absolute;
+    white-space:nowrap;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -327,7 +353,7 @@ h1.titre{
     font-size: 5vw;
     color: rgb(255, 244, 244);
     text-shadow: 3px 3px 3px black;
-    background-color: rgb(133, 170, 47, 0.5) ;
+    background-color: rgb(133, 170, 47, 0.5);
 }
 h2{
     font-size:2.3vw;
