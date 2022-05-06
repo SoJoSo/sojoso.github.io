@@ -355,6 +355,7 @@ h1.titre{
     text-shadow: 3px 3px 3px black;
     background-color: rgb(133, 170, 47, 0.5);
 }
+
 h2{
     font-size:2.3vw;
 }
@@ -363,6 +364,45 @@ h2{
     font-style: italic;
     color:grey;
 }
+
+.article{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top:1px;    
+    background:#fbfbfb;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px rgba(94, 69, 69, 0.10);
+    padding-bottom: 40px; 
+}
+
+.text{
+    text-align:left;
+    margin-left:3vw;
+    margin-right:3vw;
+    font-size: 1.5vw;
+}
+
+.article .img{
+    float:right;
+    margin: 3vw 2vw;
+    width: 25vw;
+}
+
+.article .img.gauche{
+    float:left;
+    margin: 3vw 2vw;
+    width: 25vw;
+}
+
+.article img{
+    width: 85vw;
+}
+
+.text.droite{
+    margin-left: 40vw;
+}
+
 
 .footer {
     clear:both;
@@ -373,6 +413,7 @@ h2{
 footer svg {
     margin-bottom: -100px;
 }
+
 .footer .green{
     background: rgb(133, 180, 57);
     padding-bottom: 2vw;
