@@ -3,14 +3,12 @@
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
   </head>
   <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="tree" src="JRMcD+Vanderbeke+House+1950.gltf"></a-asset-item>
+      </a-assets>
     
-<a-scene>
-  <a-assets>
-    <a-asset-item id="tree-obj" src="uploads_files_2382092_untitled.obj"></a-asset-item>
-    <a-asset-item id="tree-mtl" src="uploads_files_2382092_untitled.mtl"></a-asset-item>
-  </a-assets>
-
-  <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
-</a-scene>
+      <a-entity gltf-model="#tree"></a-entity>
+    </a-scene>
   </body>
 </html> 
