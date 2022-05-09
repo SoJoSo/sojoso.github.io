@@ -403,6 +403,10 @@ h2{
     margin-left: 40vw;
 }
 
+iframe {
+    height: 40vh;
+    width: 47%;
+}
 
 .footer {
     clear:both;
