@@ -405,7 +405,11 @@ h2{
 
 iframe {
     height: 40vh;
-    width: 47%;
+    width: 100%;
+}
+
+video{
+    width:100%;
 }
 
 .footer {
