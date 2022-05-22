@@ -328,6 +328,10 @@ body, html {
     height:20vw;
 }
 
+img.entier{
+    object-fit:contain;
+}
+
 .n3{
     width:29.5vw;
     height:auto;
